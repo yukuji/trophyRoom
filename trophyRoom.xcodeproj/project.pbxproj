@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5E0A1D2A4DF88300FE508F /* targetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E0A1C2A4DF88300FE508F /* targetLocation.swift */; };
 		BD7A1C662A4CBF1F002A57E3 /* trophyRoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A1C652A4CBF1F002A57E3 /* trophyRoomApp.swift */; };
 		BD7A1C682A4CBF1F002A57E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A1C672A4CBF1F002A57E3 /* ContentView.swift */; };
 		BD7A1C6A2A4CBF20002A57E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7A1C692A4CBF20002A57E3 /* Assets.xcassets */; };
 		BD7A1C6D2A4CBF20002A57E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7A1C6C2A4CBF20002A57E3 /* Preview Assets.xcassets */; };
-		BD7A1C742A4CC779002A57E3 /* targetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A1C732A4CC779002A57E3 /* targetLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD5E0A1C2A4DF88300FE508F /* targetLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = targetLocation.swift; sourceTree = "<group>"; };
 		BD7A1C622A4CBF1F002A57E3 /* trophyRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trophyRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7A1C652A4CBF1F002A57E3 /* trophyRoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trophyRoomApp.swift; sourceTree = "<group>"; };
 		BD7A1C672A4CBF1F002A57E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD7A1C692A4CBF20002A57E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD7A1C6C2A4CBF20002A57E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BD7A1C732A4CC779002A57E3 /* targetLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = targetLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				BD7A1C652A4CBF1F002A57E3 /* trophyRoomApp.swift */,
-				BD7A1C732A4CC779002A57E3 /* targetLocation.swift */,
 				BD7A1C672A4CBF1F002A57E3 /* ContentView.swift */,
+				BD5E0A1C2A4DF88300FE508F /* targetLocation.swift */,
 				BD7A1C692A4CBF20002A57E3 /* Assets.xcassets */,
 				BD7A1C6B2A4CBF20002A57E3 /* Preview Content */,
 			);
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7A1C682A4CBF1F002A57E3 /* ContentView.swift in Sources */,
-				BD7A1C742A4CC779002A57E3 /* targetLocation.swift in Sources */,
+				BD5E0A1D2A4DF88300FE508F /* targetLocation.swift in Sources */,
 				BD7A1C662A4CBF1F002A57E3 /* trophyRoomApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
